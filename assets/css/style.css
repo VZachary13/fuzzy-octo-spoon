@@ -20,7 +20,7 @@ header {
 /*removed .header*/
 h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 4vw;
 }
 
 /*removed .header h1 seo and replaced with the already existing and only span*/
@@ -30,18 +30,18 @@ span {
 
 /*removed .header and changed div to nav*/
 nav {
-    padding-top: 15px;
-    margin-right: 20px;
+    padding-top: 1vh;
+    margin-right: 1vw;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 1.7vw;
 }
 /*1:13 am 12/17/23 header is mostly refactored but only header and only mostly*/
 a {
     color: #ffffff;
     text-decoration: none;
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 2vw;
 }
 
 p {
