@@ -17,14 +17,16 @@ header { /*changed header from class to element selector to accomodate semantic 
 }
 
 
-h1 { /*removed .header*/
-    display: inline-block;
-    font-size: 4vw;
+footer { /*changed from id to element*/
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 
 
 span { /*removed .header h1 seo and replaced with the already existing and only span*/
-    color: #d9dcd6;
+    color: #d9dcd6; /*makes the 'seo' in Horiseon gray*/
 }
 
 
@@ -35,7 +37,30 @@ nav { /*removed .header and changed div to nav*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.7vw;
 }
-/*1:13 am 12/17/23 header is mostly refactored but only header and only mostly*/
+
+p {
+    font-size: 16px;
+}
+
+h1 { /*removed .header*/
+    display: inline-block;
+    font-size: 4vw;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+img {
+    max-height: 13.5vmax;
+}
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -43,47 +68,14 @@ a {
     margin-left: 2vw;
 }
 
-p {
-    font-size: 16px;
-}
 
-footer { /*changed from id to element*/
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-footer h2 {
-    font-size: 20px;
-}
-
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
+.content { /*responsible for all content on left side of the page*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+.benefitSection {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -94,55 +86,12 @@ footer h2 {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit { /*consolidated redundant css properties to a single selector*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+.services { 
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -151,49 +100,22 @@ footer h2 {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+.float-left { /*affects colored images*/
+    float: left;
+    margin-right: 25px;
 }
 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
+/*removed footer h2*/
+#pageDivider { /*responsible for the image underneath header*/
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-
