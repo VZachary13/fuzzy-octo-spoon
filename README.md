@@ -6,6 +6,9 @@ Welcome to Horiseon! This webpage is designed for maximum accessibility and sear
 
 The Horiseon webpage can be found here: https://vzachary13.github.io/fuzzy-octo-spoon
 
+### Screenshot
+![screenshot](./assets/images/image.jpg)
+
 ## Installation
 
 N/A
